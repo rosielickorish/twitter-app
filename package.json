@@ -1,0 +1,22 @@
+{
+  "name": "tea-pig-personality-insights",
+  "version": "1.0.0",
+  "description": "Tea Pig recommendation from Twitter Personality Insights",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.ibm.com:EmergingTechnologies/tea-pig-personality-insights.git"
+  },
+  "author": "rosie.lickorish@uk.ibm.com",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.4.0",
+    "dotenv": "^6.0.0",
+    "json2csv": "^3.7.3",
+    "q": "^2.0.3",
+    "request": "^2.81.0"
+  }
+}
